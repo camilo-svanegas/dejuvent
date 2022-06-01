@@ -1,0 +1,17 @@
+.flexRow--tripticoImages{
+    padding: 50px 12%;
+}
+.flexRow--flex-layout__ourAdn{
+    display: flex;
+    justify-content: space-between;
+}
+.flexCol--tripticoImages__image{
+    padding: 0 20px;
+}
+.flexRowContent--main-header{
+    box-shadow: none !important;
+    background: white;
+}
+.flexRowContent--specialShelf{
+    margin: 50px 0;
+}

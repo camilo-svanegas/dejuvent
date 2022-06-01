@@ -1,0 +1,34 @@
+{
+    "slider-layout#top-promo": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "always",
+          "showPaginationDots": false,
+          "blockClass": ["carousel", "carousel__top-promo"]
+        },
+        "children": ["rich-text#1", "rich-text#2", "rich-text#3"]
+      },
+      "rich-text#1": {
+        "props": {
+          "text": "ENVÍOS GRATIS POR COMPRAS SUPERIORES A $100,000",
+          "blockClass": "white-text"
+        }
+      },
+      "rich-text#2": {
+        "props": {
+          "text": "Test2",
+          "blockClass": "white-text"
+        }
+      },
+      "rich-text#3": {
+        "props": {
+          "text": "Test3",
+          "blockClass": "white-text"
+        }
+      }
+}

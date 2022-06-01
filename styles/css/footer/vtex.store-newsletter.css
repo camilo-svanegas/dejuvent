@@ -1,0 +1,27 @@
+.newsletterForm--myNewsLetter{
+    display: flex;
+}
+.emailInputContainer--mySubscribe{
+    width: 70%;
+    padding-left: 30px;
+}
+.emailInputContainer--mySubscribe :global(.vtex-styleguide-9-x-input){
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-family: "Dosis Regular";
+}
+.formSubmitContainer--mySubscribe{
+    width: 30%;
+}
+.formSubmitContainer--mySubscribe :global(.vtex-button){
+    width: 100%;
+    background: #333533;
+    border-style: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: "Dosis SemiBold";
+}

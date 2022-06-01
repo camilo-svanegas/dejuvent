@@ -1,0 +1,39 @@
+{
+    "responsive-layout.desktop#home": {
+        "children": [
+            "list-context.image-list#myslider"
+        ]
+    },
+    "list-context.image-list#myslider":{
+        "children": ["slider-layout#banner"],
+        "props": {
+          "height": 410,
+          "images": [
+            {
+              //Desktop
+              "image": "assets/imgs/banner1.jpg",
+              //Mobile
+              "mobileImage": ""
+            },
+            {
+              //Desktop
+              "image": "assets/imgs/banner1.jpg",
+              //Mobile
+              "mobileImage": ""
+            }
+          ]
+        }
+      },
+      "slider-layout#banner": {
+        "props": {
+          "itemPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": false,
+          "showPaginationDots": true,
+          "showNavigationArrows": true
+        }
+      }
+}

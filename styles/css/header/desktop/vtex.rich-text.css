@@ -1,0 +1,14 @@
+.paragraph--white-text{
+    color: white;
+    font-family: "Dosis Bold";
+}
+.headingLevel2--shelfTitle{
+    font-family: "Dosis Bold";
+    color: #333533;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+.headingLevel2--adnTitle{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,102 @@
+{
+    //Modal Routine 3
+    "modal-trigger#routine3": {
+        "children": [
+            "rich-text#trigger__routine3",
+            "modal-layout#routine3"
+        ]
+    },
+    "rich-text#trigger__routine3": {
+        "props": {
+          "text": "Ver la rutina",
+          "blockClass": "modal__trigger"
+        }
+      },
+      "modal-layout#routine3": {
+        "children": [
+            "modal-header#__routine3",
+            "modal-content#__routine3"
+        ],
+        "props": {
+            "blockClass": "modal--routines"
+        }
+      },
+      "modal-header#__routine3": {
+          "children": [
+              "image#banner-modal__routine3"
+          ],
+          "props": {
+              "blockClass": "header--modal__routines"
+          }
+      },
+      "image#banner-modal__routine3": {
+          "props": {
+              "src": "assets/imgs/routines-banner_modal1.jpg",
+              "blockClass": "banner__modal-routine"
+          }
+      },
+      "modal-content#__routine3": {
+          "children": [
+              "rich-text#description__modal3-routines",
+              "disclosure-layout-group#faq-modal3"
+          ]
+      },
+      "rich-text#description__modal3-routines": {
+          "props": {
+              "text": "En la familia Dejuvent cuidamos los detalles, gracias por elegir La Magia Natural para el cuidado de tu piel con nuestros productos. Esta rutina es especial para todo tipo de pieles, inlcuidas las sensibles."
+          }
+      },
+      "disclosure-layout-group#faq-modal3": {
+        "children": [
+            "disclosure-layout#faq-modal3-item1",
+            "disclosure-layout#faq-modal3-item2"
+            ]
+     
+      },
+      "disclosure-layout#faq-modal3-item1": {
+        "children": ["disclosure-trigger#faq-modal3-item1", "disclosure-content#faq-modal3-item1"],
+        "props": {
+            "blockClass": "faq__modal-routines"
+        }
+      },
+      "disclosure-trigger#faq-modal3-item1": {
+        "children": ["rich-text#faq-modal3-question1"]
+      },
+      "disclosure-content#faq-modal3-item1": {
+        "children": ["rich-text#faq-modal3-answer1"]
+      },
+      "rich-text#faq-modal3-question1": {
+        "props": {
+          "text": "Paso 1",
+          "blockClass": "question__modal-routines"
+        }
+      },
+      "rich-text#faq-modal3-answer1": {
+        "props": {
+          "text": "Iniciamos con el Limpiador en Espuma ADL con suaves burbujas formuladas con cúrcuma. Los extractos de perlas eliminan las impurezas y el maquillaje, dejando la piel hidratada y luminosa. Coloca una cantidad adecuada en las manos húmedas, forma una espuma densa y masajea suavemente el rostro. Retira con agua."
+        }
+      },
+      "disclosure-layout#faq-modal3-item2": {
+        "children": ["disclosure-trigger#faq-modal3-item2", "disclosure-content#faq-modal3-item2"],
+        "props": {
+            "blockClass": "faq__modal-routines"
+        }
+      },
+      "disclosure-trigger#faq-modal3-item2": {
+        "children": ["rich-text#faq-modal3-question2"]
+      },
+      "disclosure-content#faq-modal3-item2": {
+        "children": ["rich-text#faq-modal3-answer2"]
+      },
+      "rich-text#faq-modal3-question2": {
+        "props": {
+          "text": "Paso 2",
+          "blockClass": "question__modal-routines"
+        }
+      },
+      "rich-text#faq-modal3-answer2": {
+        "props": {
+          "text": "Iniciamos con el Limpiador en Espuma ADL con suaves burbujas formuladas con cúrcuma. Los extractos de perlas eliminan las impurezas y el maquillaje, dejando la piel hidratada y luminosa. Coloca una cantidad adecuada en las manos húmedas, forma una espuma densa y masajea suavemente el rostro. Retira con agua."
+        }
+      }     
+}

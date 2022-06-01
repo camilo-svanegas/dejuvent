@@ -1,0 +1,14 @@
+.infoCardTextContainer--routines{
+    margin: 100px 0;
+}
+.infoCardTextContainer--routines :global(.vtex-store-components-3-x-infoCardHeadline){
+    font-family: "Dosis Bold";
+    text-transform: uppercase;
+    margin-top: 0;
+}
+.imageElement--image__card{
+    width: 100%;
+}
+.imageElement--banner__modal-routine{
+    width: 100%;
+}

@@ -1,0 +1,70 @@
+{
+    "flex-layout.row#tripticoImages": {
+        "props": {
+            "blockClass": "tripticoImages",
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#image1",
+            "flex-layout.col#image2",
+            "flex-layout.col#image3"
+        ]
+    },
+    "flex-layout.col#image1": {
+        "props": {
+            "blockClass": "tripticoImages__image"
+        },
+        "children": [
+            "image#image1"
+        ]
+    },
+    "image#image1": {
+        "props": {
+            "src": "assets/imgs/triptico/cuidado-facial.jpg",
+            "link": {
+                "props": {
+                    "url": "#"
+                }
+            },
+            "blockClass": "triptico__image"
+        }
+    },
+    "flex-layout.col#image2": {
+        "props": {
+            "blockClass": "tripticoImages__image"
+        },
+        "children": [
+            "image#image2"
+        ]
+    },
+    "image#image2": {
+        "props": {
+            "src": "assets/imgs/triptico/kits-de-regalo.jpg",
+            "blockClass": "triptico__image",
+            "link": {
+                "props": {
+                    "url": "#"
+                }
+            }
+        }
+    },
+    "flex-layout.col#image3": {
+        "props": {
+            "blockClass": "tripticoImages__image"
+        },
+        "children": [
+            "image#image3"
+        ]
+    },
+    "image#image3": {
+        "props": {
+            "src": "assets/imgs/triptico/rutinas-de-belleza.jpg",
+            "blockClass": "triptico__image",
+            "link": {
+                "props": {
+                    "url": "#"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.flexRow--flex-layout__ourAdn{
+    padding: 0 10% 50px 10%;
+    margin: 0 0 20px 0;
+}
+.flexColChild--wrapNewsLetter{
+    background: #C0DC9C;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.flexRowContent--flex-layout__newsLetter{
+    border-top: 1px solid #E2E1DD;
+    border-bottom: 1px solid #E2E1DD;
+    padding: 50px 0;
+}

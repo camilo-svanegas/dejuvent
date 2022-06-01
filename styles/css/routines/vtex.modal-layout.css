@@ -1,0 +1,32 @@
+.paper--modal--routines{
+    width: 60%;
+}
+@media only screen and (max-width: 600px){
+    .paper--modal--routines{
+        width: 100%;
+    }
+}
+.paper--modal--routines :global(.vtex-disclosure-layout-1-x-trigger){
+    width: 100%;
+    background: #EBDEBC;
+    border: 0; 
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(102,102,102,1);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(102,102,102,1);
+    box-shadow: 0px 1px 5px 0px rgba(102,102,102,1);
+    cursor: pointer;
+    font-family: "Dosis Bold";
+    margin-bottom: 10px;
+}
+.paper--modal--routines :global(.vtex-modal-layout-0-x-closeButtonContainer){
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+.closeIcon--header--modal__routines{
+    border: 1px solid #000;
+    border-radius: 50%;
+
+}
+.headerContent--header--modal__routines{
+    width: 100%;
+}

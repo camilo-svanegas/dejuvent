@@ -1,0 +1,11 @@
+.flexRow--wrapper__top-bar{
+    background: red;
+}
+.flexRow--main-header{
+    padding: 10px 7%;
+}
+.flexCol--mainMenuCol1,
+.flexCol--mainMenuCol3{
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,0 +1,55 @@
+{
+     //Component
+    "flex-layout.row#specialShelf": {
+        "children": [
+            "flex-layout.col#bannerShelf",
+            "flex-layout.col#specialShelf"
+        ],
+        "props": {
+            "blockClass": "specialShelf"
+        }
+    },
+    //All children
+    "flex-layout.col#bannerShelf": {
+        "props": {
+            "blockClass": "bannerShelf",
+            "width": "25%"
+        },
+        "children": [
+            "image#bannerShelf"
+        ]
+    },
+    "image#bannerShelf": {
+        "props": {
+            "src": "assets/imgs/protege-piel.jpg",
+            "blockClass": "bannerShelf",
+            "link": {
+                "props": {
+                    "url": "#"
+                }
+            }
+        }
+    },
+    "flex-layout.col#specialShelf": {
+        "children": ["list-context.product-list#specialShelf"]
+    },
+    "list-context.product-list#specialShelf": {
+        "blocks": ["product-summary.shelf#shelfHome"],
+        "children": ["slider-layout#specialShelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"
+        }
+      },
+      "slider-layout#specialShelf": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 2,
+            "phone": 1
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "myShelf"
+        }
+      }
+}

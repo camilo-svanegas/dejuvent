@@ -1,0 +1,31 @@
+{
+    "list-context.image-list#topSlider": {
+        "children": ["slider-layout#homeBanner"],
+        "props": {
+            "images": [
+                {
+                    "image": "assets/imgs/banner1.jpg",
+                    "description": ""
+                },
+                {
+                    "image": "assets/imgs/banner1.jpg",
+                    "description": ""
+                }
+            ]
+        }
+    },
+    "slider-layout#homeBanner": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showpaginationDots": "always",
+            "height": 800,
+            "blockClass": "sliderHome"
+
+        }
+    }
+}

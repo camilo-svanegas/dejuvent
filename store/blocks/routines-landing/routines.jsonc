@@ -1,0 +1,142 @@
+{
+    "store.custom#routines": {
+        "children": [
+            "info-card#routines-banner",
+            "rich-text#description-routines",
+            "flex-layout.row#wrap__routines-card1",
+            "flex-layout.row#wrap__routines-card2",
+            "flex-layout.row#wrap__routines-card3"
+        ]
+    },
+    "info-card#routines-banner": {
+        "props": {
+          "isFullModeStyle": true,
+          "textPosition": "center",
+          "imageUrl": "assets/imgs/routines-background.jpg",
+          "headline": "Rutinas de belleza",
+          "callToActionMode": "none",
+          "blockClass": "routines"
+        }
+      },
+      "rich-text#description-routines": {
+          "props": {
+              "text": "Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+              "textAlignment": "CENTER",
+              "blockClass": ["description__routines"]
+          }
+      },
+    //Card 1
+    "flex-layout.row#wrap__routines-card1": {
+        "props": {
+            "blockClass": "wrap__routines-card"
+        },
+        "children": [
+            "flex-layout.col#image-card1",
+            "flex-layout.col#text-card1"
+        ]
+      },
+      "flex-layout.col#image-card1": {
+          "children": [
+              "image#card-1"
+          ]
+      },
+      "image#card-1": {
+          "props": {
+              "src": "assets/imgs/routines-card1.png",
+              "blockClass": "image__card"
+          }
+      },
+      "flex-layout.col#text-card1": {
+          "children": [
+              "rich-text#card1",
+              "modal-trigger#routine1"
+          ],
+          "props": {
+              "verticalAlign": "middle",
+              "horizontalAlign": "center",
+              "blockClass": "text__card"
+          }
+      },
+      "rich-text#card1": {
+          "props": {
+              "text": "Es momento de comenzar a cuidar tu piel, puede parecer un camino tedioso, pero en Dejuvent lo hacemos sencillo para ti. Tomaste la decisión más importante para tener una piel radiante y con solo 4 productos es suficiente para empezar.",
+              "blockClass": "description__card"
+          }
+      },
+    //Card 2
+    "flex-layout.row#wrap__routines-card2": {
+        "props": {
+            "blockClass": "wrap__routines-card"
+        },
+        "children": [
+            "flex-layout.col#image-card2",
+            "flex-layout.col#text-card2"
+        ]
+      },
+      "flex-layout.col#image-card2": {
+          "children": [
+              "image#card-2"
+          ]
+      },
+      "image#card-2": {
+          "props": {
+              "src": "assets/imgs/routines-card2.png",
+              "blockClass": "image__card"
+          }
+      },
+      "flex-layout.col#text-card2": {
+          "children": [
+              "rich-text#card2",
+              "modal-trigger#routine2"
+          ],
+          "props": {
+              "verticalAlign": "middle",
+              "horizontalAlign": "center",
+              "blockClass": "text__card"
+          }
+      },
+      "rich-text#card2": {
+          "props": {
+              "text": "Si estás aquí es porque deseas disfrutar de los beneficios de cuidar tu piel, recuerda que esta representa tu imagen personal y dice mucho de ti. Esta rutina está conformada por 5 productos y no te tomará más de 20 minutos realizarla.",
+              "blockClass": "description__card"
+          }
+      },
+    //Card 3
+    "flex-layout.row#wrap__routines-card3": {
+        "props": {
+            "blockClass": "wrap__routines-card"
+        },
+        "children": [
+            "flex-layout.col#image-card3",
+            "flex-layout.col#text-card3"
+        ]
+      },
+      "flex-layout.col#image-card3": {
+          "children": [
+              "image#card-3"
+          ]
+      },
+      "image#card-3": {
+          "props": {
+              "src": "assets/imgs/routines-card3.png",
+              "blockClass": "image__card"
+          }
+      },
+      "flex-layout.col#text-card3": {
+          "children": [
+              "rich-text#card3",
+              "modal-trigger#routine3"
+          ],
+          "props": {
+              "verticalAlign": "middle",
+              "horizontalAlign": "center",
+              "blockClass": "text__card"
+          }
+      },
+      "rich-text#card3": {
+          "props": {
+              "text": "En la familia Dejuvent cuidamos los detalles, gracias por elegir La Magia Natural para el cuidado de tu piel con nuestros productos. Esta rutina es especial para todo tipo de pieles, inlcuidas las sensibles.",
+              "blockClass": "description__card"
+          }
+      }
+}

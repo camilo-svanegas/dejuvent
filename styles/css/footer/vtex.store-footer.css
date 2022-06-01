@@ -1,0 +1,6 @@
+.footerLayout{
+    border-top: 1px solid #E2E1DD;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: linear-gradient(white, rgb(234,237,242));
+}

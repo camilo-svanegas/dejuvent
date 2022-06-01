@@ -1,0 +1,9 @@
+.wrapper--sticky-header{
+    background: white;
+}
+.container--sticky-header{
+    background: white;
+}
+.wrapper--stuck:not(:hover) :global(.vtex-flex-layout){
+    background: white;
+}

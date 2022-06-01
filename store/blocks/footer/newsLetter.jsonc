@@ -1,0 +1,110 @@
+{
+    "flex-layout.row#newsLetter": {
+        "children": [
+            "flex-layout.col#wrapNewsLetter",
+            "flex-layout.col#wrapSocial"
+        ],
+        "props": {
+            "blockClass": "flex-layout__newsLetter"
+        }
+    },
+    "flex-layout.col#wrapNewsLetter": {
+        "children": [
+            "flex-layout.row#newsLetterDivider"
+        ],
+        "props": {
+            "blockClass": "wrapNewsLetter",
+            "width": "70%"
+        }
+    },
+    "flex-layout.row#newsLetterDivider": {
+        "children": [
+            "flex-layout.col#subscribeCopy",
+            "flex-layout.col#subscribeForm"
+        ],
+        "props": {
+            "blockClass": "flex-layout__newsLetter--divider"
+        }
+    },
+    "flex-layout.col#subscribeCopy": {
+        "children": [
+            "rich-text#subscribeText"
+        ],
+        "props": {
+            "blockClass": "subscribeText",
+            "width": "35%"
+        }
+    },
+    "rich-text#subscribeText": {
+        "props": {
+            "text": "**Suscríbete** para recibir un 15% de descuento en tu primera compra y descubre nuestras ofertas exclusivas.",
+            "blockClass": "subscribeParagraph"
+        }
+    },
+    "flex-layout.col#subscribeForm": {
+        "children": [
+            "newsletter-form#footerSubscribe"
+        ],
+        "props": {
+            "blockClass": "subscribeForm",
+            "width": "65%"
+        }
+    },
+    "newsletter-form#footerSubscribe": {
+        "children": [
+        "newsletter-input-email#mySubscribe",
+        "newsletter-submit#mySubscribe"
+        ],
+        "props": {
+            "blockClass": "myNewsLetter"
+        }
+    },
+    "newsletter-input-email#mySubscribe": {
+        "props": {
+            "blockClass": "mySubscribe"
+        }
+    },
+    "newsletter-submit#mySubscribe": {
+        "props": {
+            "blockClass": "mySubscribe"
+        }
+    },
+    "flex-layout.col#wrapSocial": {
+        "children": [
+            "rich-text#joinCommunity",
+            "social-networks"
+        ],
+        "props": {
+            "blockClass": "wrapSocial",
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#joinCommunity": {
+        "props": {
+            "text": "HAZ PARTE DE NUESTRA COMUNIDAD",
+            "blockClass": "joinCommunity"
+        }
+    },
+    "social-networks": {
+        "props": {
+          "socialNetworks": [
+            {
+              "name": "Facebook",
+              "url": "https://www.facebook.com/vtexonline/"
+            },
+            {
+              "name": "Instagram",
+              "url": "https://www.instagram.com/vtextruecloud/"
+            },
+            {
+              "name": "Twitter",
+              "url": "https://twitter.com/vtexonline"
+            },
+            {
+              "name": "Youtube",
+              "url": "https://www.youtube.com/user/VTEXTV"
+            }
+          ]
+        }
+    }
+}

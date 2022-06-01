@@ -1,0 +1,12 @@
+.paragraph--subscribeParagraph{
+    font-family: "Dosis SemiBold";
+    font-size: 17px;
+    margin: 0;
+}
+.strong--subscribeParagraph{
+    font-family: "Dosis Bold";
+}
+.paragraph--joinCommunity{
+    font-family: "Dosis Bold";
+    font-size: 22px;
+}

@@ -1,0 +1,91 @@
+{
+    "flex-layout.row#ourAdn": {
+        "children": [
+          "flex-layout.col#circle1",
+          "flex-layout.col#circle2",
+          "flex-layout.col#circle3",
+          "flex-layout.col#circle4",
+          "flex-layout.col#circle5"
+        ],
+        "props": {
+          "blockClass": "flex-layout__ourAdn",
+          "horizontalAlign": "center",
+          "fullWidth": true
+        }
+      },
+      "flex-layout.col#circle1": {
+          "props": {
+              "blockClass": "flex-layout__ourAdn--col",
+              "horizontalAlign": "center"
+          },
+          "children": [
+              "image#circle1"
+          ]
+      },
+      "image#circle1": {
+          "props": {
+              "src": "assets/imgs/ourAdn/circle1.png",
+              "blockClass": "flex-layout__ourAdn--circle"
+          }
+      },
+      "flex-layout.col#circle2": {
+        "props": {
+            "blockClass": "flex-layout__ourAdn--col",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#circle2"
+        ]
+    },
+    "image#circle2": {
+        "props": {
+            "src": "assets/imgs/ourAdn/circle2.png",
+            "blockClass": "flex-layout__ourAdn--circle"
+        }
+    },
+    "flex-layout.col#circle3": {
+        "props": {
+            "blockClass": "flex-layout__ourAdn--col",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#circle3"
+        ]
+    },
+    "image#circle3": {
+        "props": {
+            "src": "assets/imgs/ourAdn/circle3.png",
+            "blockClass": "flex-layout__ourAdn--circle"
+        }
+    },
+    "flex-layout.col#circle4": {
+        "props": {
+            "blockClass": "flex-layout__ourAdn--col",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#circle4"
+        ]
+    },
+    "image#circle4": {
+        "props": {
+            "src": "assets/imgs/ourAdn/circle4.png",
+            "blockClass": "flex-layout__ourAdn--circle"
+        }
+    },
+    "flex-layout.col#circle5": {
+        "props": {
+            "blockClass": "flex-layout__ourAdn--col",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#circle5"
+        ]
+    },
+    "image#circle5": {
+        "props": {
+            "src": "assets/imgs/ourAdn/circle5.png",
+            "blockClass": "flex-layout__ourAdn--circle"
+        }
+    }
+}

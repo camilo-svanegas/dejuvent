@@ -1,0 +1,102 @@
+{
+    //Modal Routine 2
+    "modal-trigger#routine2": {
+        "children": [
+            "rich-text#trigger__routine2",
+            "modal-layout#routine2"
+        ]
+    },
+    "rich-text#trigger__routine2": {
+        "props": {
+          "text": "Ver la rutina",
+          "blockClass": "modal__trigger"
+        }
+      },
+      "modal-layout#routine2": {
+        "children": [
+            "modal-header#__routine2",
+            "modal-content#__routine2"
+        ],
+        "props": {
+            "blockClass": "modal--routines"
+        }
+      },
+      "modal-header#__routine2": {
+          "children": [
+              "image#banner-modal__routine2"
+          ],
+          "props": {
+              "blockClass": "header--modal__routines"
+          }
+      },
+      "image#banner-modal__routine2": {
+          "props": {
+              "src": "assets/imgs/routines-banner_modal1.jpg",
+              "blockClass": "banner__modal-routine"
+          }
+      },
+      "modal-content#__routine2": {
+          "children": [
+              "rich-text#description__modal2-routines",
+              "disclosure-layout-group#faq-modal2"
+          ]
+      },
+      "rich-text#description__modal2-routines": {
+          "props": {
+              "text": "Si estás aquí es porque deseas disfrutar de los beneficios de cuidar tu piel, recuerda que esta representa tu imagen personal y dice mucho de ti. Esta rutina está conformada por 5 productos y no te tomará más de 20 minutos realizarla."
+          }
+      },
+      "disclosure-layout-group#faq-modal2": {
+        "children": [
+            "disclosure-layout#faq-modal2-item1",
+            "disclosure-layout#faq-modal2-item2"
+            ]
+     
+      },
+      "disclosure-layout#faq-modal2-item1": {
+        "children": ["disclosure-trigger#faq-modal2-item1", "disclosure-content#faq-modal2-item1"],
+        "props": {
+            "blockClass": "faq__modal-routines"
+        }
+      },
+      "disclosure-trigger#faq-modal2-item1": {
+        "children": ["rich-text#faq-modal2-question1"]
+      },
+      "disclosure-content#faq-modal2-item1": {
+        "children": ["rich-text#faq-modal2-answer1"]
+      },
+      "rich-text#faq-modal2-question1": {
+        "props": {
+          "text": "Paso 1",
+          "blockClass": "question__modal-routines"
+        }
+      },
+      "rich-text#faq-modal2-answer1": {
+        "props": {
+          "text": "Iniciamos con el Limpiador en Espuma ADL con suaves burbujas formuladas con cúrcuma. Los extractos de perlas eliminan las impurezas y el maquillaje, dejando la piel hidratada y luminosa. Coloca una cantidad adecuada en las manos húmedas, forma una espuma densa y masajea suavemente el rostro. Retira con agua."
+        }
+      },
+      "disclosure-layout#faq-modal2-item2": {
+        "children": ["disclosure-trigger#faq-modal2-item2", "disclosure-content#faq-modal2-item2"],
+        "props": {
+            "blockClass": "faq__modal-routines"
+        }
+      },
+      "disclosure-trigger#faq-modal2-item2": {
+        "children": ["rich-text#faq-modal2-question2"]
+      },
+      "disclosure-content#faq-modal2-item2": {
+        "children": ["rich-text#faq-modal2-answer2"]
+      },
+      "rich-text#faq-modal2-question2": {
+        "props": {
+          "text": "Paso 2",
+          "blockClass": "question__modal-routines"
+        }
+      },
+      "rich-text#faq-modal2-answer2": {
+        "props": {
+          "text": "Iniciamos con el Limpiador en Espuma ADL con suaves burbujas formuladas con cúrcuma. Los extractos de perlas eliminan las impurezas y el maquillaje, dejando la piel hidratada y luminosa. Coloca una cantidad adecuada en las manos húmedas, forma una espuma densa y masajea suavemente el rostro. Retira con agua."
+        }
+      }     
+}

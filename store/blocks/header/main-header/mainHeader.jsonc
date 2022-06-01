@@ -1,0 +1,84 @@
+{
+    "sticky-layout#mainHeader": {
+        "props": {
+            "blockClass": "sticky-header"
+          },
+          "children": ["flex-layout.row#mainHeader"]
+    },
+    "flex-layout.row#mainHeader": {
+        "props": {
+          "blockClass": "main-header",
+          "preventHorizontalStretch": true,
+          "colSizing": "auto",
+          "fullWidth": true
+        },
+        "children": [
+          "flex-layout.col#mainMenuCol1",
+          "flex-layout.col#mainMenuCol2",
+          "flex-layout.col#mainMenuCol3"
+        ]
+    },
+    "flex-layout.col#mainMenuCol1": {
+        "props": {
+            "blockClass": ["mainMenuCol", "mainMenuCol1"],
+            "verticalAlign": "center"
+        },
+        "children": [
+            // "flex-layout.col#category-menu",
+            "flex-layout.col#searchBar"
+        ]
+    },
+    "flex-layout.col#category-menu": {
+        "props": {
+          "verticalAlign": "middle"
+        },
+        "children": ["vtex.menu@2.x:menu#category-menu"]
+      },
+    "flex-layout.col#searchBar": {
+      "children": ["search-bar"]
+    },
+    "flex-layout.col#mainMenuCol2": {
+        "props": {
+            "blockClass": ["mainMenuCol", "mainMenuCol2"]
+        },
+        "children": [
+            "flex-layout.col#logo-desktop"
+        ]
+    },
+    "flex-layout.col#logo-desktop": {
+        "props": {
+          "verticalAlign": "middle"
+        },
+        "children": ["logo#desktop"]
+      }
+    ,
+      "logo#desktop": {
+        "props": {
+          "title": "Logo",
+          "href": "/",
+          "url": "assets/imgs/logo-dejuvent.png",
+          "width": "250"
+        }
+      },
+    "flex-layout.col#mainMenuCol3": {
+        "props": {
+            "blockClass": ["mainMenuCol", "mainMenuCol3"],
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "icon#wishlist",
+            "login#myLogin",
+            "minicart.v2"
+        ]
+    },
+    "icon#wishlist": {
+      "props": {
+        "id": "mpa-heart"
+      }
+    },
+    "login#myLogin":{
+      "props": {
+        "showIconProfile": false
+      }
+    }
+}

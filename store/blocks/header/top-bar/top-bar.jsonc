@@ -1,0 +1,53 @@
+{
+    "flex-layout.row#top-bar": {
+        "props": {
+            "blockClass": "wrapper__top-bar"
+        },
+        "children": [
+            "flex-layout.col#left",
+            "flex-layout.col#right"
+        ]
+    },
+    "flex-layout.col#left": {
+        "children": [
+            "rich-text#email-text",
+            "rich-text#phone-text"
+        ],
+        "props": {
+            "blockClass": ["wrapper__col", "wrapper__col-left"]
+        }
+    },
+    "flex-layout.col#right": {
+        "children": [
+            "rich-text#login-text",
+            "rich-text#wishlist-text"
+        ],
+        "props": {
+            "blockClass": ["wrapper__col", "wrapper__col-right"]
+        }
+    },
+    "rich-text#email-text": {
+        "props": {
+            "blockClass": ["text__top-bar", "email__top-bar"],
+            "text": "![envelope](https://via.placeholder.com/14x16) loremipsum@gmail.com"
+        }
+    },
+    "rich-text#phone-text": {
+        "props": {
+            "blockClass": ["text__top-bar", "phone__top-bar"],
+            "text": "![phone](https://via.placeholder.com/14x16) +55 (14) 0000-0000"
+        }
+    },
+    "rich-text#login-text": {
+        "props": {
+            "blockClass": ["text__top-bar", "login__top-bar"],
+            "text": "![user](https://via.placeholder.com/14x16) login"
+        }
+    },
+    "rich-text#wishlist-text": {
+        "props": {
+            "blockClass": ["text__top-bar", "wishlist__top-bar"],
+            "text": "![user](https://via.placeholder.com/14x16) wishlist"
+        }
+    }
+}
